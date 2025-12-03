@@ -44,3 +44,15 @@ player.onTravelled(SNEAK, function () {
 player.onTravelled(SPRINT, function () {
     mobs.applyEffect(SPEED, mobs.target(ALL_PLAYERS), 1e+30, 10000000000000)
 })
+player.execute(
+"hello!"
+)
+player.execute(
+"now."
+)
+player.execute(
+"don't do anything but walk."
+)
+player.execute(
+"enjoy!"
+)
